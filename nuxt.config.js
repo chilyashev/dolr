@@ -75,6 +75,6 @@ export default {
     }
   }, 
   router: {
-    base: process.env.NODE_ENV === 'dev' ? '/' : '/dolr/'
+    //base: process.env.NODE_ENV === 'dev' ? '/' : '/dolr/'
   }
 }
