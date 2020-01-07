@@ -11,7 +11,7 @@
     <v-flex xs12 sm8 md6 v-if="!showAnswer">
       <div class="text-center"></div>
       <v-card>
-        <v-card-title class="headline">{{currentQuestion.question}}</v-card-title>
+        <v-card-title class="headline" style="word-break: keep-all">{{currentQuestion.question}}</v-card-title>
         <v-card-subtitle>Въпрос: {{currentQuestionIndex+1}}/{{totalQuestions}}</v-card-subtitle>
         <v-card-text>
           <v-radio-group v-model="currentAnswer">
