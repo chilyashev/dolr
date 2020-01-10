@@ -1,22 +1,26 @@
-# dolr
+# Да отида ли на работа?
+https://daotidalinarabota.eu  
+ 
+Това е опит за хумор.   
+Един проект, достигащ вашите дисплеи благодарение на чист мързел.
 
-> http://daotidalinarabota.eu
 
-## Build Setup
+
+## За подкарване
 
 ``` bash
-# install dependencies
+# Инсталиране на ненужни неща
 $ npm run install
 
-# serve with hot reload at localhost:3000
+# Подкарване на прелестта локално на адрес localhost:3000
 $ npm run dev
 
-# build for production and launch server
+# Подготвяне на версия "за пред хората" и пускане на сървър с нея
 $ npm run build
 $ npm run start
 
-# generate static project
+# Генериране на статичен проект
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Този плод на любовта към работата използва [Nuxt.js](https://nuxtjs.org).
