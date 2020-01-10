@@ -2,15 +2,19 @@
   <v-app>
     <v-content>
       <v-container>
-        <div class="text-center display-3 font-weight-thin mb-5">Да отида ли на работа днес?</div>
         <v-row>
-          <v-col cols="12" offset="0" xl="6" offset-xl="3">
+          <v-col
+            cols="12"
+            offset="0"
+            xl="6"
+            offset-xl="3"
+          >
             <nuxt />
           </v-col>
         </v-row>
       </v-container>
     </v-content>
-    <Footer />
+    <Footer/>
   </v-app>
 </template>
 
@@ -20,7 +24,8 @@ import Footer from  '~/components/Footer'
 export default {
   components: {Footer},
   data() {
-    return {};
+    return {
+    };
   }
 };
 </script>

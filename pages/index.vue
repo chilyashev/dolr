@@ -37,8 +37,20 @@
             <v-btn color="primary" nuxt to="/assess" block>Към теста</v-btn>
           </v-col>
         </v-row>
+        <v-row class="mt-9">
+          <v-col>
+            <h3>Помощ! Отидох на работа! Какво да правя сега?</h3>
+            Спокойно, погрижили сме се и за вашия случай. Заповядяйте към <nuxt-link to="gishe_4">гише №4</nuxt-link>.
+          </v-col>
+        </v-row>
       </v-sheet>
-      <small class="text-left">* Бързото решение може да ви изненада!</small>
+      <p>
+        <small class="text-left">* Бързото решение може да ви изненада!</small>
+        <br />
+        <small
+          class="text-left"
+        >** Ако днес сте се минали да отидете на работа, опитайте теста отново утре. А дотогава може да опитате <a href="https://lmgtfy.com/?q=%D0%BF%D0%B0%D1%81%D0%B8%D0%B0%D0%BD%D1%81+%D0%B8+%D0%BC%D0%B8%D0%BD%D0%B8%D1%87%D0%BA%D0%B8">това</a>.</small>
+      </p>
     </v-flex>
   </v-layout>
 </template>
