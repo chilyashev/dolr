@@ -1,5 +1,11 @@
 <template>
     <v-footer >
+      <v-tooltip top>
+        <template v-slot:activator="{ on }">
+          <v-btn color="primary" dark v-on="on" icon href="https://github.com/chilyashev/dolr" x-small><v-icon>mdi-github-circle</v-icon></v-btn>
+        </template>
+        <span>Изходният код в GitHub</span>
+      </v-tooltip>
       <v-spacer/>
       <span class="font-italic font-weight-light">
         Направено с
