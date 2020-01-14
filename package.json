@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/sitemap": "^2.0.1",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {

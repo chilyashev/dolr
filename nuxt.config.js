@@ -45,6 +45,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/sitemap'
   ],
   /*
   ** vuetify module configuration
@@ -76,5 +77,23 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  sitemap: {
+    path: '/daotidalinarabota.eu.xml',
+    hostname: 'https://daotidalinarabota.eu',
+    cacheTime: 1000 * 60 * 15,
+    gzip: true,
+    generate: false,
+    routes: [
+      '/',
+      '/assess',
+      '/42',
+      '/gishe_4',
+    ].map(route => ({
+      url: route,
+      changefreq: 'monthly',
+      priority: 1,
+      lastmodISO: new Date().toISOString().split('T')[0]
+    }))
+  },
 }
