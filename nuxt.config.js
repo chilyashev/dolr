@@ -1,6 +1,9 @@
 import colors from 'vuetify/es5/util/colors'
 
 const mainTitle = 'Да отида ли на работа днес?';
+const META_DESCRIPTION = "Всеки ден този въпрос си задават милиони българи. \
+Благодарение на напреднал изкуствен интелект и естествена липса на желание за работа създадохме платформа, която ще ви помогне да вземете правилното решение!"
+
 export default {
   mode: 'spa',
   /*
@@ -12,7 +15,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: META_DESCRIPTION }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -75,7 +78,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   },
   sitemap: {
