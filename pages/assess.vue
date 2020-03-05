@@ -58,6 +58,16 @@ export default {
       snackbar: false,
       questions: [
         {
+          question: "Страх ли ви е от вируса?",
+          type: "single",
+          answers: [{ text: "Да", points: -100 }, { text: "Не", points: 50 }]
+        },
+        {
+          question: "Имате ли маска?",
+          type: "single",
+          answers: [{ text: "Да", points: -100 }, { text: "Не", points: 50 }]
+        },
+        {
           question: "Можете ли да живеете без заплата?",
           type: "single", // Това ще се използва някой друг път
           answers: [{ text: "Да", points: -100 }, { text: "Не", points: 100 }]
