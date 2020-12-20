@@ -10,7 +10,7 @@ https://daotidalinarabota.eu
 
 ``` bash
 # Инсталиране на ненужни неща
-$ npm run install
+$ npm install
 
 # Подкарване на прелестта локално на адрес localhost:3000
 $ npm run dev
